@@ -31,12 +31,35 @@ AI-Business-Intelligence-Customer-Risk-Analytics/
 ```
 
 ## Run locally
-```powershell
-cd "C:\Users\91700\Downloads\AI_Business_Intelligence_Project"
-python -m pip install -r requirements.txt
-python -m streamlit run app.py
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/amansoni06890-ui/AI-Business-Intelligence-Customer-Risk-Analytics.git
 ```
 
+### 2. Open the project folder
+```bash
+cd AI-Business-Intelligence-Customer-Risk-Analytics
+```
+
+### 3. Install dependencies
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Add the dataset
+Create a folder named `dataset` and place the approved public CSV inside it as:
+
+```text
+dataset/final_superstore.csv
+```
+
+The dashboard can also load the CSV through the upload option in the Streamlit sidebar.
+
+### 5. Run the dashboard
+```bash
+python -m streamlit run app.py
+```
 ## Dataset
 Place your approved public CSV at:
 
