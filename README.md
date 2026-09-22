@@ -17,13 +17,17 @@ transaction dataset.
 
 ## Project structure
 ```text
-AI_Business_Intelligence_Project/
+AI-Business-Intelligence-Customer-Risk-Analytics/
 ├── app.py
 ├── requirements.txt
 ├── README.md
 ├── Project_Report.docx
-└── dataset/
-    └── final_superstore.csv
+└── screenshots/
+    ├── 01_Executive_Overview.png
+    ├── 02_Sales_Product_Analysis.png
+    ├── 03_Customer_Analytics.png
+    ├── 04_Risk_and_Actions.png
+    └── 05_Data_Quality.png
 ```
 
 ## Run locally
